@@ -5,12 +5,12 @@ _Webscrape cryptocurrency data which is stored and used to Tweet a LIVE price of
 ----
 
 Strictly written with **Python** with the implementation of the following packages: 
-  * BeautifulSoup
-  * requests
-  * tweepy
-  * time
-  * schedule
-  * sleep
+  * BeautifulSoup: used to gather data from HTML and XML pages.
+  * Requests: used to send HTTP requests.
+  * Tweepy: library used to access twitter API.
+  * Time: used to access local time.
+  * Schedule: used to schedule a function (postTweet).
+  * Sleep: suspends the execution of an action for given time(seconds).
 
 
-<h4> testing </h4>
+<h4> How to Install and Run </h4>
