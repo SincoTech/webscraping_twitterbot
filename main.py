@@ -67,4 +67,4 @@ postTweet()
 schedule.every(1).hours.at("00:00").do(postTweet)
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(1) 
